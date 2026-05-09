@@ -1,0 +1,44 @@
+.header {
+  height: 320px;
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #7c3aed
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay {
+  max-width: 900px;
+}
+
+.header h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 20px;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .header h1 {
+    font-size: 38px;
+  }
+
+  .header p {
+    font-size: 17px;
+  }
+}
